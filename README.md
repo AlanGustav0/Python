@@ -1,2 +1,2 @@
 # Séries Recursivas com Python
- Python Rescursion
+ Série de algoritimos utilizando recursão com Python
