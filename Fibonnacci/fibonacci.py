@@ -1,7 +1,7 @@
-def Fibo():
+def Fibo(number):
 
     previous = 1
-    current = 2
+    current = 1
     auxiliary = 0
 
     count = 0
@@ -12,7 +12,7 @@ def Fibo():
 
         next = current + previous
 
-        print('- {}',end=' '.format(next))
+        print('- {}'.format(next),end=' ')
 
         previous = current
         current = next
@@ -22,7 +22,7 @@ def Fibo():
 
         
         
-number = (int(input('Isert the number')))
+number = (int(input('Isert the number: ')))
 
 Fibo(number)
 
