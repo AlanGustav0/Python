@@ -1,4 +1,4 @@
-from GuessNumber import generate
+import generate
 from random import randint
 
 def start():

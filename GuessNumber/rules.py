@@ -1,4 +1,4 @@
-from GuessNumber import generate
+import generate
 
 
 def validate(valid):

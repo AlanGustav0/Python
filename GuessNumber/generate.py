@@ -1,4 +1,4 @@
-from GuessNumber import rules
+import rules
 
 
 def generateNumber(pcNumber):
