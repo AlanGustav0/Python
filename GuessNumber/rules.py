@@ -1,6 +1,5 @@
 import start
 
-
 def validate(valid,verify):
 
     if (valid.isalpha() == True and valid == "y"):
