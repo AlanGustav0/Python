@@ -1,7 +1,6 @@
 import rules
 
-
-def generateNumber(pcNumber):
+def thinking():
 
     value = 10 ** 7
     print('Just a moment, I\'ll think of a number... \n')
@@ -10,10 +9,8 @@ def generateNumber(pcNumber):
         i *= 2 * value
     print('Great! \n')
 
-    choiceNumber(pcNumber)
 
-
-def choiceNumber(pcNumber):
+def choiceNumber(pcNumber,verify):
 
     statusOk = False
 
@@ -24,6 +21,7 @@ def choiceNumber(pcNumber):
             if (number < 0 or number > 5):
                 print('Invalid number!')
             else:
-                rules.remake(number, pcNumber)
+                rules.remake(number, pcNumber,verify)
         except ValueError:
             print('Invalid option!')
+
