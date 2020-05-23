@@ -1,5 +1,3 @@
 import start
-verify = False
-
-start.start(verify)
-
+first_time = True
+start.start(first_time)
